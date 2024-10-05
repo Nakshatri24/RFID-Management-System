@@ -7,12 +7,8 @@ This project is an RFID Management System that allows users to efficiently manag
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
-- [Folder Structure](#folder-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies Used
 
