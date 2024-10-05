@@ -1,0 +1,45 @@
+.navBar{
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(148, 50, 239,0.8);
+
+}
+.navBar1{
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(148, 50, 239,0.8);
+}
+.navBar1 h1{
+  margin-left: 38%;
+  color: white;
+}
+
+.navBar h1{
+  
+  margin-left: 20px;
+  color: white;
+}
+.navBar li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  transition: 0.5s;
+  
+}
+.navBar li a:hover{
+  background-color: rgba(132, 0, 255, 0.8);
+
+}
+
+.navBar ul{
+  list-style-type: none;
+  display: flex;
+  gap:15px;
+  position:absolute;
+  right: 10px;
+  top:15px;
+}

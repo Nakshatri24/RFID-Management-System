@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #010023; 
+    color: #fff; 
+}
+nav {
+    background-color: #012148;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color:#012148;
+}
+main {
+    padding: 20px;
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+#addLocationForm {
+    margin-bottom: 20px;
+}
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.buttons{
+    color: #fff;
+    background-color: #050172;
+}
+.buttons:hover{
+    color: #fff;
+    background-color: #020202;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #010023;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #010023;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff8c;
+    color: #010023;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #010023;
+    padding: 10px;
+    
+   
+}

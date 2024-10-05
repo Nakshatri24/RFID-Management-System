@@ -1,0 +1,158 @@
+
+body, h1, h2, h3, p, ul, li, nav, header, main, footer {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020134; 
+    color: #fff; 
+}
+
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0e0129;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-b{
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    align-items: center;
+    background-color: #020134;
+    color: #fff;
+    
+    border-radius: 8%;
+    margin: 0;
+    
+}
+.ip{
+    background-color: #020134;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8%;
+    padding: 5px;
+}
+
+
+.ip:hover{
+    background-color: #fff;
+    color: #020134;
+}
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(14, 7, 42);
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 3px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+nav {
+    background-color: #012148;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color:#012148;
+}
+
+.banner-section img{
+    width: 99vw;
+    height: 99vh;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+}
+
+.main-image{
+    filter: brightness(0.4);
+}
+
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    z-index: 100; 
+    color: white;
+    line-height: 50px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.dashboard {
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.dashboard h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.widget {
+    background-color: #222; 
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.widget h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.widget p {
+    color: #ccc; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
