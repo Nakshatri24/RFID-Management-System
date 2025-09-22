@@ -48,5 +48,5 @@ Once both the frontend and backend servers are running, you can access the appli
 
 ## Authors
 
-- **Nakshatri24** - *Lead Developer* - [Nakshatri24](https://github.com/NAkshatri24)
+- **Shrikara P S Nakshatri** - *Lead Developer* - [Nakshatri24](https://github.com/NAkshatri24)
 
